@@ -1,28 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Okno />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Okno from './components/Okno.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Okno
   }
 }
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700&subset=latin-ext');
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
